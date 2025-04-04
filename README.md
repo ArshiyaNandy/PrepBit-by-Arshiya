@@ -1,80 +1,93 @@
-# ai-interviewer-by-Arshiya
-Your Mock AI Interview Platform by Jobs
 
-Project Banner
-next.js vapi tailwindcss firebase
-Prepwise: A job interview preparation platform powered by Vapi AI Voice agents
-Build this project step by step with our detailed tutorial on JavaScript Mastery YouTube. Join the JSM family!
-📋 Table of Contents
-🤖 Introduction
-⚙️ Tech Stack
-🔋 Features
-🤸 Quick Start
-🕸️ Snippets (Code to Copy)
-🔗 Assets
-🚀 More
-🚨 Tutorial
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, JavaScript Mastery.
+<!-- PROJECT BANNER -->
+<p align="center">
+  <img src="https://your-image-link-here.com/banner.png" alt="Prepbit by Arshiya" width="100%" />
+</p>
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+<h1 align="center">🎙️ Prepbit — Your AI-Powered Mock Interview Platform</h1>
 
+<p align="center">
+  Created with ❤️ by <strong>Arshiya Nandy</strong> | Built using Next.js, Vapi AI & Google Gemini
+</p>
 
+<p align="center">
+  🧠 Practice smart. 💬 Talk to AI. 🚀 Nail your next interview.
+</p>
 
-🤖 Introduction
-Built with Next.js for the user interface and backend logic, Firebase for authentication and data storage, styled with TailwindCSS and using Vapi's voice agents, Prepwise is a website project designed to help you learn integrating AI models with your apps. The platform offers a sleek and modern experience for job interview preparation.
+---
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 50k+ members. It's a place where people help each other out.
+## 📖 Table of Contents
 
+- [🌟 About Prepbit](#-about-prepbit)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [⚡ Features](#-features)
+- [🚀 Getting Started](#-getting-started)
+- [🧠 AI Prompts & Feedback](#-ai-prompts--feedback)
+- [📸 UI Preview](#-ui-preview)
+- [🔐 Environment Variables](#-environment-variables)
+- [🌐 Deployment](#-deployment)
+- [📁 Assets](#-assets)
+- [🧩 Extras](#-extras)
+- [📣 Credits & Acknowledgments](#-credits--acknowledgments)
 
+---
 
-⚙️ Tech Stack
-Next.js
-Firebase
-Tailwind CSS
-Vapi AI
-shadcn/ui
-Google Gemeni
-Zod
-🔋 Features
-👉 Authentication: Sign Up and Sign In using password/email authentication handled by Firebase.
+## 🌟 About Prepbit
 
-👉 Create Interviews: Easily generate job interviews with help of Vapi voice assistants and Google Gemini.
+**Prepbit** is a modern AI-driven platform designed to simulate mock interviews with **realistic voice interactions**. Whether you're a job seeker, student, or just curious about AI, Prepbit helps you **practice confidently** with the power of Vapi voice agents and feedback from Google Gemini.
 
-👉 Get feedback from AI: Take the interview with AI voice agent, and receive instant feedback based on your conversation.
+🧑‍💼 Talk to an AI interviewer  
+📝 Get smart feedback instantly  
+📊 Track your sessions and improve with each try
 
-👉 Modern UI/UX: A sleek and user-friendly interface designed for a great experience.
+---
 
-👉 Interview Page: Conduct AI-driven interviews with real-time feedback and detailed transcripts.
+## 🛠️ Tech Stack
 
-👉 Dashboard: Manage and track all your interviews with easy navigation.
+| Tech           | Description                           |
+|----------------|---------------------------------------|
+| ⚛️ Next.js     | Frontend + Backend                    |
+| 🎨 Tailwind CSS| Beautiful, responsive UI styling      |
+| 🔐 Firebase    | Authentication + Firestore database   |
+| 🧠 Vapi AI     | Real-time voice interviewing          |
+| ✨ Google Gemini | Question & feedback generation       |
+| 🧩 shadcn/ui   | Reusable, accessible UI components    |
+| ✅ Zod         | Form and data schema validation       |
 
-👉 Responsiveness: Fully responsive design that works seamlessly across devices.
+---
 
-and many more, including code architecture and reusability
+## ⚡ Features
 
-🤸 Quick Start
-Follow these steps to set up the project locally on your machine.
+✅ **Voice-Based AI Interviews** – Powered by Vapi  
+✅ **Smart Question Generation** – Role-based and randomized  
+✅ **Instant Gemini Feedback** – Natural language critique and suggestions  
+✅ **User Authentication** – Login/signup with Firebase  
+✅ **Interview Dashboard** – View, manage, and retake interviews  
+✅ **Mobile Responsive** – Clean design for all devices  
+✅ **Transcript Logs** – View full transcripts of past sessions
 
-Prerequisites
+---
 
-Make sure you have the following installed on your machine:
+## 🚀 Getting Started
 
-Git
-Node.js
-npm (Node Package Manager)
-Cloning the Repository
+### 1. Clone the Repository
 
-git clone https://github.com/adrianhajdin/ai_mock_interviews.git
-cd ai_mock_interviews
-Installation
+```bash
+git clone https://github.com/your-username/prepbit.git
+cd prepbit
+```
 
-Install the project dependencies using npm:
+### 2. Install Dependencies
 
+```bash
 npm install
-Set Up Environment Variables
+```
 
-Create a new file named .env.local in the root of your project and add the following content:
+### 3. Set Up Environment Variables
 
+Create a `.env.local` file in the root directory:
+
+```env
 NEXT_PUBLIC_VAPI_WEB_TOKEN=
 NEXT_PUBLIC_VAPI_WORKFLOW_ID=
 
@@ -92,25 +105,76 @@ NEXT_PUBLIC_FIREBASE_APP_ID=
 FIREBASE_PROJECT_ID=
 FIREBASE_CLIENT_EMAIL=
 FIREBASE_PRIVATE_KEY=
-Replace the placeholder values with your actual Firebase, Vapi credentials.
+```
 
-Running the Project
+🔒 **Keep this file private!**
 
+### 4. Run the Development Server
+
+```bash
 npm run dev
-Open http://localhost:3000 in your browser to view the project.
+```
 
-🕸️ Snippets
-globals.css
-lib/utils.ts
-Generate questions prompt (/app/api/vapi/generate/route.tsx):
-Generate feedback prompt (lib/actions/general.action.ts):
-Display feedback (app/(root)/interview/[id]/feedback/page.tsx):
-Dummy Interviews:
-🔗 Assets
-Public assets used in the project can be found here
+Visit: [http://localhost:3000](http://localhost:3000)
 
-🚀 More
-Advance your skills with Next.js Pro Course
+---
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+## 🧠 AI Prompts & Feedback
 
+- ✨ **Prompt Creation**: `/app/api/vapi/generate/route.tsx`  
+- 📋 **Feedback Logic**: `/lib/actions/general.action.ts`  
+- 🧾 **Display Page**: `/app/(root)/interview/[id]/feedback/page.tsx`
+
+---
+
+## 📸 UI Preview
+
+| Dashboard | Interview Page | Feedback |
+|-----------|----------------|----------|
+| ![](https://your-preview-link.com/dashboard.png) | ![](https://your-preview-link.com/interview.png) | ![](https://your-preview-link.com/feedback.png) |
+
+---
+
+## 🔐 Environment Variables
+
+Keep your API keys and Firebase config secure with `.env.local`. Never push them to public repositories!
+
+---
+
+## 🌐 Deployment
+
+Deploy to [**Vercel**](https://vercel.com) for a seamless experience with automatic CI/CD.
+
+---
+
+## 📁 Assets
+
+All icons, illustrations, and banners used in Prepbit are stored in the `/public` directory.
+
+---
+
+## 🧩 Extras
+
+Here’s how you can take Prepbit even further:
+
+- 🎯 Add role-based question pools (Frontend, Data, PM, etc.)
+- 📈 Integrate session analytics and performance charts
+- 📄 Export feedback as downloadable PDF
+- 🎥 Add webcam support for video interview simulation
+
+---
+
+## 📣 Credits & Acknowledgments
+
+- Developed by **Arshiya Nandy** 💙  
+- Based on a tutorial by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)  
+- Voice agents powered by **[Vapi AI](https://www.vapi.ai)**  
+- Feedback via **Google Gemini**
+
+---
+
+<p align="center">
+  <strong>Ready to level up your interview prep? 🚀</strong> <br/>
+  Star the repo ⭐ | Fork it 🍴 | Contribute 🔧 | Share ❤️
+</p>
+```
