@@ -1,8 +1,5 @@
 
 <!-- PROJECT BANNER -->
-<p align="center">
-  <img src="https://your-image-link-here.com/banner.png" alt="Prepbit by Arshiya" width="100%" />
-</p>
 
 <h1 align="center">🎙️ Prepbit — Your AI-Powered Mock Interview Platform</h1>
 
