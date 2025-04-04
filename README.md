@@ -164,11 +164,15 @@ Here’s how you can take Prepbit even further:
 ## 📣 Credits & Acknowledgments
 
 - Developed by **Arshiya Nandy** 💙  
-- Based on a tutorial by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)  
 - Voice agents powered by **[Vapi AI](https://www.vapi.ai)**  
 - Feedback via **Google Gemini**
 
 ---
+
+
+## 📧 Contact
+- Have questions or feedback? Reach out at:
+- 📩 Email: arshiyanandy1731@gmail.com
 
 <p align="center">
   <strong>Ready to level up your interview prep? 🚀</strong> <br/>
